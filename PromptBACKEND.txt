@@ -1,0 +1,25 @@
+Prompt BACKEND
+
+Buenas tardes, cómo estás? Necesito ayuda con un proyecto para la universidad, para la asignatura de programación backend.
+Aprendizaje esperado: Utiliza tecnologías del lado del servidor para resolver problemáticas planteadas, de acuerdo a la sintaxis del lenguaje.
+Criterios de evaluación: 
+1 Identifica variables y operaciones del lenguaje, según requerimiento.
+2 Codifica instrucciones, estructuras y operadores, según requerimientos.
+3 Codifica instrucciones utilizando paquetes externos, según requerimientos.
+4 Implementa una aplicación sencilla en Django, según requerimientos.
+Contenidos mínimos obligatorios:
+- Tecnologías del lado del servidor, protocolos, servicios de hosting y dominios. 
+- Modelo Vista Controlador (MVC) 
+- Django (Configuración, Rutas y Vistas) 
+- Django Models 
+- Django Templates 
+Quiero que usemos las mejores prácticas, como la modularidad, el uso de virtual environment, etc.
+Que usemos python y django como se nos pide. Y que por ahora sea un proyecto muy pequeño, con solo dos o tres productos.
+Además, me gustaría que me vayas explicando el código paso a paso, para poder escribirlo yo e ir prácticando e ir aprendiendo en el proceso por favor
+
+superuser:
+    - usurario: diego
+    - contraseña: diegodjango
+
+Para ver la lista de productos: http://127.0.0.1:8000/productos/lista/
+Para página admin: http://127.0.0.1:8000/admin/

@@ -1,0 +1,24 @@
+<!DOCTYPE html>  <!-- Declaración del tipo de documento -->
+<html lang="es">  <!-- Idioma del documento -->
+<head>  
+    <meta charset="UTF-8">  <!-- Codificación de caracteres -->
+    <title>Lista de Productos</title>  <!-- Título de la página -->
+</head>
+<body>
+    <h1>Lista de Productos</h1>  <!-- Encabezado principal -->
+    <ul>
+        {% for producto in productos %}  <!-- Bucle para iterar sobre los productos -->
+            <li>
+                <strong>{{ producto.nombre }}</strong> <br>  <!-- Nombre del producto en negrita -->
+                Categoría: {{ producto.categoria.nombre }} <br>  <!-- Nombre de la categoría del producto -->
+                Descripción: {{ producto.descripcion }} <br>  <!-- Descripción del producto -->
+                Precio: ${{ producto.precio }} <br>  <!-- Precio del producto -->
+                Stock: {{ producto.stock }}  <!-- Cantidad en stock del producto -->
+            </li>
+            <hr>
+        {% empty %}  <!-- Mensaje si no hay productos -->
+            <li>No hay productos disponibles.</li>  <!-- Mensaje si no hay productos -->
+        {% endfor %}  <!-- Fin del bucle -->
+    </ul>
+</body>
+</html>
