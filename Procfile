@@ -1,1 +1,1 @@
-web: gunicorn tienda.tienda.wsgi
+web: cd tienda && gunicorn tienda.wsgi
