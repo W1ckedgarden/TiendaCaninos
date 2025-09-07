@@ -18,7 +18,7 @@ def lista_productos(request):
 
 
 """
-Explicación:
+Explicación (1er commit):
 - Importamos render y el modelo Producto.
 - Definimos la función lista_productos, que obtiene todos los productos
 de la base de datos.
@@ -27,5 +27,5 @@ también la información de la categoría.
 - La función retorna el template 'productos/lista_productos.html'
 y le pasa la lista de productos.
 - Esto permite mostrar todos los productos junto con sus categorías
-en la plantilla.
+en la plantilla.s
 """

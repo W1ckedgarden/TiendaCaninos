@@ -21,9 +21,13 @@ from django.urls import path, include
 
 # Definición de las rutas URL a nivel del proyecto
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path(
+        '',  # Ruta raíz del proyecto
+        include('main.urls')  # Incluir las URLs de la app main
+    ),
     path(
         'productos/',  # Prefijo para las URLs de productos
         include('productos.urls')  # Incluir las URLs de la app productos
     ),
+    path('admin/', admin.site.urls)  # Ruta para el panel de administración
 ]

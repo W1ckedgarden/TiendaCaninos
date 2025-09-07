@@ -1,6 +1,6 @@
 # Importación de path para definir rutas
 from django.urls import path
-# Importación de las vistas del módulo actual
+# Importación de las vistas del módulo productos
 from . import views
 
 # Definición de las rutas URL para la aplicación de productos
