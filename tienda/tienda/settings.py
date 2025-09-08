@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 # Configuración para permitir orígenes confiables (agregado)
 CSRF_TRUSTED_ORIGINS = [
-    'https://tu-app.railway.app'
+    'https://web-production-9d98a.up.railway.app'
 ]
 
 
