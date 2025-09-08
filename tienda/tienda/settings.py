@@ -27,6 +27,11 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
+# Configuración para permitir orígenes confiables (agregado)
+CSRF_TRUSTED_ORIGINS = [
+    'https://tu-app.railway.app'
+]
+
 
 # Application definition
 
